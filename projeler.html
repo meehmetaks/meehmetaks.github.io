@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Projeler</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header></header>
+
+<div class="projects-page">
+  <h1>Projeler</h1>
+
+  <p class="projects-intro">
+    Bu sayfada üzerinde çalıştığım projelerin amaçlarını, kullanılan yöntemleri
+    ve teknik içeriklerini detaylı şekilde paylaşıyorum.
+  </p>
+
+  <div class="project-cards">
+    <a href="#eye-tracking" class="project-card">
+      <h2>Göz Takibi ile İmleç Kontrolü</h2>
+      <p>
+        Web kamerası üzerinden göz hareketlerini algılayarak imleç kontrolü sağlamayı amaçlayan bir bilgisayarla görü projesi.
+      </p>
+    </a>
+
+    <a href="#reconstruction" class="project-card">
+      <h2>RGB Görsellerden 3B Rekonstrüksiyon</h2>
+      <p>
+        Yalnızca RGB görüntüler kullanılarak iç mekân sahnelerinin üç boyutlu olarak yeniden oluşturulmasını hedefleyen bir çalışma.
+      </p>
+    </a>
+  </div>
+
+  <section id="eye-tracking" class="project-section">
+    <h2>Göz Takibi ile İmleç Kontrolü</h2>
+
+    <p>
+      Bu projede, standart bir web kamerası aracılığıyla kullanıcının bakış yönünü tespit ederek
+      bilgisayar imlecinin kontrol edilmesi amaçlanmıştır.
+    </p>
+
+    <div class="project-meta">
+      <div>
+        <h3>Alan</h3>
+        <p>Bilgisayarla Görü / İnsan-Bilgisayar Etkileşimi</p>
+      </div>
+      <div>
+        <h3>Durum</h3>
+        <p>Tamamlandı</p>
+      </div>
+      <div>
+        <h3>Teknolojiler</h3>
+        <p>Python, OpenCV, Görüntü İşleme</p>
+      </div>
+    </div>
+
+    <h3>Proje Amacı</h3>
+    <p>
+      Kullanıcının göz hareketlerini izleyerek fare imlecini kontrol edebilen,
+      daha doğal ve erişilebilir bir etkileşim sistemi geliştirmek.
+    </p>
+
+    <h3>Yaklaşım</h3>
+    <p>
+      Çalışma sürecinde yüz ve göz referans noktalarının çıkarımı, bakış yönünün tahmini,
+      ekran koordinatlarına eşleme ve daha stabil kullanım için filtreleme yöntemleri üzerinde çalışılmıştır.
+    </p>
+
+    <h3>Proje Görselleri</h3>
+<div class="project-gallery">
+  <img src="img/eye_1.png" alt="Proje görseli 1" class="project-image">
+</div>
+
+    <h3>Proje Raporu</h3>
+    <a class="project-link" href="https://drive.google.com/file/d/1DHneB8aOu4MpFxAGIzpAlKw3nhM2ev4A/view?usp=drive_link" target="_blank">PDF Raporunu Aç</a>
+  </section>
+
+  <section id="reconstruction" class="project-section">
+    <h2>RGB Görsellerden 3B Rekonstrüksiyon</h2>
+
+    <p>
+      Bu projede, yalnızca RGB görüntüler kullanılarak iç mekân sahnelerinin
+      3B rekonstrüksiyonunun elde edilmesi hedeflenmektedir.
+    </p>
+
+    <div class="project-meta">
+      <div>
+        <h3>Alan</h3>
+        <p>Bilgisayarla Görü / 3B Sahne Modelleme</p>
+      </div>
+      <div>
+        <h3>Durum</h3>
+        <p>Devam Ediyor</p>
+      </div>
+      <div>
+        <h3>Odak</h3>
+        <p>3B Rekonstrüksiyon ve Etkileşimli Sahne Yapısı</p>
+      </div>
+    </div>
+
+    <h3>Proje Amacı</h3>
+    <p>
+      RGB fotoğraflardan iç mekânın üç boyutlu yapısını yeniden oluşturmak
+      ve elde edilen sahnede gerçek zamanlı gezinme ile nesne düzeyinde etkileşim sağlamak.
+    </p>
+
+    <h3>Çalışma İçeriği</h3>
+    <p>
+      Bu çalışma kapsamında 3B sahne oluşturma, nesne ayrıştırma, görüntü tabanlı modelleme
+      ve etkileşimli sahne sunumu gibi başlıklar üzerinde araştırma ve geliştirme süreci devam etmektedir.
+    </p>
+
+    <h3>Proje Görselleri</h3>
+<div class="project-gallery">
+  <img src="img/ilk.png" alt="3B rekonstrüksiyon görseli 1" class="project-image">
+  <img src="img/sfm.png" alt="3B rekonstrüksiyon görseli 2" class="project-image">
+</div>
+<div class="project-gallery">
+  <img src="img/mvs.png" alt="3B rekonstrüksiyon görseli 1" class="project-image">
+  <img src="img/son.png" alt="3B rekonstrüksiyon görseli 2" class="project-image">
+</div>
+<p> Şekildeki görseller sırası ile ham görüntülerden başlayıp SFM-MVS-TEXTURE adımlarından geçerek 3B iç mekan oluşum görselleri</p>
+
+    <h3>Proje Raporu</h3>
+    <a class="project-link" href="https://drive.google.com/file/d/1kwKdNMZoyPmOOjtR8f-AnuMt7K0kNkEw/view?usp=drive_link" target="_blank">PDF Raporunu Aç</a>
+  </section>
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>

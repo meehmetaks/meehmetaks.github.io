@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Araştırmalar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header></header>
+
+<div class="research-page">
+  <h1>Araştırmalar</h1>
+
+  <p class="research-intro">
+    Araştırma çalışmalarım; mobil uygulama geliştirme, bilgisayarla görü, göz takibi tabanlı etkileşim
+    ve RGB görüntülerden 3B sahne rekonstrüksiyonu gibi alanlar etrafında şekillenmektedir.
+    Aşağıdaki tablodan ilgili başlığa tıklayarak detaylı açıklamaya ulaşabilirsiniz.
+  </p>
+
+  <table class="research-table">
+    <thead>
+      <tr>
+        <th>Araştırma Başlığı</th>
+        <th>Alan</th>
+        <th>Durum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr onclick="location.href='#mobil-gelistirme'">
+        <td><a href="#mobil-gelistirme">Mobil Geliştirme</a></td>
+        <td>Mobil Yazılım</td>
+        <td>Tamamlandı</td>
+      </tr>
+      <tr onclick="location.href='#goz-takibi'">
+        <td><a href="#goz-takibi">Göz Takibi ve İmleç Kontrolü</a></td>
+        <td>Bilgisayarla Görü</td>
+        <td>Tamamlandı</td>
+      </tr>
+      <tr onclick="location.href='#rekonstruksiyon'">
+        <td><a href="#rekonstruksiyon">RGB Görsellerden 3B Rekonstrüksiyon</a></td>
+        <td>3B Görüntüleme</td>
+        <td>Devam Ediyor</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <section id="mobil-gelistirme" class="research-section">
+    <h2>Mobil Geliştirme</h2>
+    <p>
+      Mobil geliştirici alanına yönelik araştırmalarımda; mobil uygulama türleri, geliştirme platformları,
+      kullanılan programlama dilleri ve güncel teknolojiler üzerinde durdum. Android ve iOS ekosistemleri ile birlikte
+      Java, Kotlin, Swift, Flutter ve React Native gibi araç ve teknolojileri inceleyerek mobil geliştirme alanında
+      temel ve güncel bir altyapı oluşturmaya çalıştım.
+    </p>
+  </section>
+
+  <section id="goz-takibi" class="research-section">
+    <h2>Göz Takibi ve İmleç Kontrolü</h2>
+    <p>
+      Bu araştırmada, standart bir web kamerası aracılığıyla kullanıcının bakış yönünü tespit edip
+      imleç hareketlerini kontrol etmeye yönelik yöntemler üzerinde çalıştım. Süreç içerisinde
+      göz ve yüz referans noktalarının çıkarımı, bakış tahmini, ekran koordinatlarına eşleme ve
+      daha kararlı kullanım için filtreleme yöntemleri üzerine yoğunlaştım. Bu çalışma, insan-bilgisayar
+      etkileşimini daha doğal ve erişilebilir hale getirmeyi amaçlamaktadır.
+    </p>
+  </section>
+
+  <section id="rekonstruksiyon" class="research-section">
+    <h2>RGB Görsellerden 3B Rekonstrüksiyon</h2>
+    <p>
+      Hâlen devam eden araştırmalarımdan biri, yalnızca RGB görüntülerden iç mekân sahnelerinin
+      3B rekonstrüksiyonunun oluşturulmasıdır. Bu çalışmada amaç, elde edilen sahne üzerinde gerçek zamanlı gezinme sağlamak
+      ve sahnedeki nesneleri daha etkileşimli biçimde temsil edebilmektir. Bu doğrultuda bilgisayarla görü ve
+      3B sahne modelleme alanındaki güncel yöntemleri incelemeye devam ediyorum.
+    </p>
+  </section>
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>
